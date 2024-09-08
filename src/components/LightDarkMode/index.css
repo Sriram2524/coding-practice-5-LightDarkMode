@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.white-card {
+  background-color: white;
+  border-width: 15px;
+  border-color: blue;
+}
+.dark-card {
+  background-color: black;
+  border-width: 15px;
+}
+.button {
+  background-color: white;
+  color: black;
+  border-width: 2px;
+  border-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.head {
+  font-size: 30px;
+  font-family: roboto;
+}
+.white-color {
+  color: white;
+}
+.dark-color {
+  color: black;
+}
